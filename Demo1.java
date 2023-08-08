@@ -59,7 +59,7 @@ public class Demo1{
                                         System.out.printf("| %-8s : \033[34:1m%-36s\033[0m|\n","Name ",name.toUpperCase());
                                         System.out.printf("| %-8s : %-36s|\n","Age ",age+" year old");
                                         System.out.printf("| %-8s : \033[34:1m%-41s\033[0m|\n","Status ",status);
-                                        System.out.printf("| %-8s : %-10s %-8s : %-6.2f|\n","Total ",total,"Avg",avg);
+                                        System.out.printf("| %-8s : %-10s %-5s : %-6.2f %-10s|\n","Total ",total,"Avg",avg,"%");
 
                                         System.out.println("-".repeat(50));
                                         System.out.printf("| %-13s | %-13s | %-14s |\n","Subjects","Marks","Status");
